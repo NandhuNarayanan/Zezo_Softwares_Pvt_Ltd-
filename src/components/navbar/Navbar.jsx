@@ -4,6 +4,7 @@ import { BiSearchAlt } from 'react-icons/bi'
 import Profile_Picture from '../../assets/images/profile_pic.jpeg'
 import { FiChevronDown } from 'react-icons/fi'
 
+
 function Navbar() {
   return (
     <>
