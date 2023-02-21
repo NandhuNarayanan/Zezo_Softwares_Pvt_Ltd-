@@ -1,20 +1,20 @@
-import React from 'react'
-import Banner_image from '../../assets/images/stranger_things.jpeg'
+import React from 'react';
+import Pathan from '../../assets/images/pathaan.png';
 import { IoIosSquare } from 'react-icons/io'
 import { BsPlayFill } from 'react-icons/bs'
 import { AiOutlinePlus } from 'react-icons/ai'
 import { FiPlay } from 'react-icons/fi'
-import Carousel from '../banner_carousel/Carousel'
 
-function Banner() {
+
+function Poster() {
   return (
     <>
       <div className="w-full h-[550px]">
         <div className="absolute w-full h-[570px] bg-gradient-to-r from-black"></div>
         <img
           className="w-full h-[570px] object-cover"
-          src={Banner_image}
-          alt="Banner_image"
+          src={Pathan}
+          alt={Pathan}
         />
         <div className="flex items-center text-left">
           <div className="flex items-center w-96 absolute top-[150px] left-8">
@@ -80,18 +80,16 @@ function Banner() {
             </div>
           </div>
         </div>
-        <div className='absolute justify-center items-center top-[275px] right-[400px]'>
-          <div className='bg-red-600 rounded-full w-20 h-20 cursor-pointer '>
+        <div className="absolute justify-center items-center top-[275px] right-[400px]">
+          <div className="bg-red-600 rounded-full w-20 h-20 cursor-pointer ">
             <div className="relative flex justify-center text-center">
-
-            <FiPlay className='text-white text-5xl mt-4 ml-1' />
+              <FiPlay className="text-white text-5xl mt-4 ml-1" />
             </div>
           </div>
         </div>
-        <Carousel/>
       </div>
     </>
   )
 }
 
-export default Banner
+export default Poster

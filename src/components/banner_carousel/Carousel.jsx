@@ -21,9 +21,9 @@ function Carousel() {
       <div className='flex justify-end items-center'>
       <div class="text-white grid grid-cols-3 w-[450px] gap-5 absolute right-36 bottom-24">
     {data.map((datas)=>{
-        return (<img className='h-44 w-[450px] object-cover rounded-md' src={datas.image} alt="image" />)
+        return (<img className='h-44 w-[450px] object-cover cursor-pointer rounded-md' src={datas.image} alt="image" />)
     })} 
-    <div className='absolute left-[480px] bottom-16 '>
+    <div className='absolute left-[480px] bottom-16 cursor-pointer'>
     <FiArrowRight className='text-4xl'/>
     </div>
 </div>

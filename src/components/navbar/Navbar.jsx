@@ -18,7 +18,7 @@ function Navbar() {
             />
           </div>
           <div className="flex items-center">
-            <ul className="text-white flex - items-center gap-8">
+            <ul className="text-white flex - items-center gap-8 cursor-pointer">
               <li>Home</li>
               <li>Movie</li>
               <li>Web Series</li>

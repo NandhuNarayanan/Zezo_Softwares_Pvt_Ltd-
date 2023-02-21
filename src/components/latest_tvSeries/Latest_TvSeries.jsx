@@ -9,10 +9,10 @@ function Latest_TvSeries() {
   console.log(data);
 
   return (
-    <div className=''>
+    <div >
       <div>
-        <div className="flex justify-between items-center mt-15">
-          <h2 className="text-white font-semibold text-xl p-10 pb-0">
+        <div className="flex justify-between items-center">
+          <h2 className="text-white font-semibold text-xl p-10 pb-0 mb-4">
             Latest TV Series
           </h2>
           <span className="text-white p-10 pb-0 text-xl flex items-center">
@@ -20,14 +20,19 @@ function Latest_TvSeries() {
             <RiArrowRightSLine />
           </span>
         </div>
-        <div className=" flex justify-center items-center p-7 gap-5 pl-32  overflow-x-scroll scrollbar-hide ">
+        <div className="flex justify-center items-center  overflow-y-hidden scrollbar-hide ml-5">
           {data.map((datas) => {
             return (
+              <div className=' cursor-pointer relative p-2 hover:scale-110'>
               <img
-                className="h-48 w-[300px] object-cover rounded-md cursor-pointer hover:scale-110 "
+                className="h-48 w-[400px]  block  rounded-md   "
                 src={datas.image}
-                alt="datas.image"
+                alt={datas.image}
               />
+              <div className='absolute top-2 left-0 w-full h-full hover:bg-black/80 opacity-0 hover:opacity-75 text-white'>
+                <p>{datas.name}</p>
+              </div>
+              </div>
             )
           })}
         </div>

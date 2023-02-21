@@ -8,7 +8,7 @@ function Popular_Movies() {
 
   return (
     <div>
-      <div className='flex justify-between items-center mt-20'>
+      <div className='flex justify-between items-center mt-6'>
         <h2 className='text-white font-semibold text-xl p-10 pb-0'>Popular Movies</h2>
         <span className='text-white p-10 pb-0 text-xl flex items-center'>
             See All
