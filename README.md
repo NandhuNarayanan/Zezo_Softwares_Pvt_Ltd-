@@ -1,5 +1,5 @@
 
-WEBISTE :  https://delightful-raindrop-490441.netlify.app/
+WEBISTE :  https://galaxyott.netlify.app/
 
 # Galaxy OTT
 This is a website built using React and styled with Tailwind CSS. It's designed to be fully responsive and adapt to different screen sizes.
