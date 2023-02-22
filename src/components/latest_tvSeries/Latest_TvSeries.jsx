@@ -25,11 +25,11 @@ function Latest_TvSeries() {
             return (
               <div className=' cursor-pointer relative p-2 hover:scale-110'>
               <img
-                className="h-48 w-[400px]  block  rounded-md   "
+                className="h-48 w-[400px] block  rounded-md"
                 src={datas.image}
                 alt={datas.image}
               />
-              <div className='absolute top-2 left-0 w-full h-full hover:bg-black/80 opacity-0 hover:opacity-75 text-white'>
+              <div className='absolute top-2 left-2 w-full h-full hover:w-[95%]c hover:bg-black/80 opacity-0 hover:opacity-75 text-white'>
                 <p>{datas.name}</p>
               </div>
               </div>

@@ -9,7 +9,7 @@ import { FiPlay } from 'react-icons/fi'
 function Poster() {
   return (
     <>
-      <div className="w-full h-[550px]">
+      <div className="w-full h-[550px] relative">
         <div className="absolute w-full h-[570px] bg-gradient-to-r from-black"></div>
         <img
           className="w-full h-[570px] object-cover"
@@ -81,7 +81,7 @@ function Poster() {
           </div>
         </div>
         <div className="absolute justify-center items-center top-[275px] right-[400px]">
-          <div className="bg-red-600 rounded-full w-20 h-20 cursor-pointer ">
+          <div className="outline-none  outline-white outline-8 rounded-full w-20 h-20 cursor-pointer ">
             <div className="relative flex justify-center text-center">
               <FiPlay className="text-white text-5xl mt-4 ml-1" />
             </div>

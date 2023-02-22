@@ -8,7 +8,7 @@ import  Latest_Movies  from '../latest_movies/Latest_Movies';
 
 function Movie_Cards() {
   return (
-    <div className='bg-zinc-900'>
+    <div className='bg-zinc-900 overflow-hidden'>
       <Popular_Movies/>
       <Latest_TvSeries/>
       <Popular_Movies/>

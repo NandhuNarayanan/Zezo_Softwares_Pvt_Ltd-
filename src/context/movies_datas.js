@@ -172,6 +172,8 @@ export const sports=
         Duration: '03:30 min'
 
     },
+    
+    
 ]
 
 

@@ -41,7 +41,7 @@ function Navbar() {
             />
           </label>
           <div className="flex ">
-            <button className="bg-red-700 hover:bg-red-600 text-white focus:outline-none focus:ring focus:ring-red-300 p-2 px-4 rounded-sm">
+            <button className="bg-red-700 hover:bg-red-600 text-white focus:outline-none outline-none focus:ring focus:ring-red-300 p-2 px-4 rounded-sm">
               Subscribe Now
             </button>
           </div>
